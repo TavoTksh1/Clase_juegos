@@ -16,11 +16,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Movement();
     }
 
     public void Movement()
     {
-        
+        transform.Translate(Vector3.right*speed*_oldInput.horizontal*Time.deltaTime);
     }
 }

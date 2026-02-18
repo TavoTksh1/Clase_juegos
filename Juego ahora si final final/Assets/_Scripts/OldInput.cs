@@ -20,7 +20,6 @@ public class OldInput : MonoBehaviour
     {
         // Se almacena el eje raw (-1, 0- 1) del eje horizontal (ver en Unity "Axis"), en la variable.
         horizontal = Input.GetAxisRaw("Horizontal");
-
         // Se escribe en consola el resultado
         Debug.Log(horizontal);
 
